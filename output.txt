@@ -1,0 +1,794 @@
+To start the app, load the data.
+Type "load itemsFile ratingsFile" and press enter.
+
+Enter command or # to quit: 
+Reading items file...
+Douglas Adams,The Hitchhiker's Guide To The Galaxy
+Richard Adams,Watership Down
+Mitch Albom,The Five People You Meet in Heaven
+Laurie Halse Anderson,Speak
+Maya Angelou,I Know Why the Caged Bird Sings
+Jay Asher,Thirteen Reasons Why
+Isaac Asimov,Foundation Series
+Ann Brashares,The Sisterhood of the Travelling Pants
+Libba Bray,A Great and Terrible Beauty
+Dan Brown,The Da Vinci Code
+Meg Cabot,The Princess Diaries
+Orson Scott Card,Ender's Game
+Tom Clancy,The Hunt for Red October
+Suzanne Collins,The Hunger Games
+F. Scott Fitzgerald,The Great Gatsby
+John Flanagan,Ranger's Apprentice Series
+Cornelia Funke,Inkheart
+William Gibson,Neuromancer
+William Golding,Lord of the Flies
+William Goldman,The Princess Bride
+James Gurney,Dinotopia: A Land Apart from Time
+Will Hobbs,Far North
+Alice Hoffman,Practical Magic
+Aldous Huxley,Brave New World
+Guy Gavriel Kay,The Summer Tree
+Daniel Keyes,Flowers For Algernon
+Patrice Kindl,Owl in Love
+Masashi Kishimoto,Naruto
+Tite Kubo,Bleach (graphic novel)
+Elizabeth Laird,Kiss the Dust
+Harper Lee,To Kill a Mockingbird
+C S Lewis,The Lion the Witch and the Wardrobe
+Robert Ludlum,The Bourne Series
+Yann Martel,Life of Pi
+Lurlene McDaniel,Breathless
+Stephenie Meyer,Twilight Series
+Garth Nix,Sabriel
+George Orwell,Nineteen Eighty-Four (1984)
+Christopher Paolini,Eragon
+Gary Paulsen,Hatchet
+Jodi Picoult,My Sister's Keeper
+Philip Pullman,The Golden Compass
+J.K. Rowling,Harry Potter Series
+Louis Sachar,Holes
+Shueisha,Shonen Jump Series
+Neil Shusterman,The Shadow Club
+Jeff Smith,Bone Series
+Art Spiegelman,Maus: A Survivor's Tale
+Amy Tan,The Joy Luck Club
+J R R Tolkien,The Lord of the Rings
+J R R Tolkien,The Hobbit
+Eric Walters,Shattered
+H G Wells,The War Of The Worlds
+Patricia C. Wrede,Dealing with Dragons
+John Wyndham,The Chrysalids
+
+Reading ratings file...
+TeamBrodie
+0 0 0 0 0 1 0 0 0 3 0 0 0 5 5 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 5 0 -3 3 0 0 0 0 0 -3 0 0 1 1 0 0 1 0 0 0 1 0 0 0 0 
+Dannyt
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+lrico5
+0 0 0 0 0 0 0 0 0 0 0 3 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 1 5 0 3 0 0 0 0 3 0 0 5 1 0 0 5 1 0 0 0 0 0 0 0 0 0 0 0 
+skurug2
+0 0 1 3 1 1 3 0 -5 1 3 0 1 1 0 0 1 0 0 0 0 0 1 0 1 0 5 5 0 0 -5 -5 5 3 1 3 5 0 0 0 0 0 -3 -3 -3 1 0 0 3 0 3 0 0 1 1 
+dtiwari
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 
+ArtemL
+1 0 1 -3 1 -5 0 3 0 1 -3 0 3 -3 1 0 -5 -3 5 5 0 0 0 -3 0 0 0 3 1 0 5 0 -3 1 1 -3 -3 3 0 0 -5 0 1 0 0 0 0 -5 1 3 -3 1 -3 -3 1 
+AndrewMina
+0 5 1 -3 3 1 5 -3 -5 5 1 3 0 1 5 -3 -5 -3 3 -3 -5 3 1 1 -3 -5 0 3 5 3 1 0 -3 5 -5 -3 0 1 3 5 3 1 5 5 0 -3 -5 -3 0 3 3 3 -5 1 -3 
+Sai
+3 0 0 0 1 1 0 0 0 5 0 3 0 3 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 5 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 3 3 0 0 0 0 
+dpatel
+0 0 0 0 0 0 0 0 0 0 0 0 3 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 
+thiscrazyideal
+0 0 0 0 0 1 5 0 0 3 0 5 3 5 5 0 0 0 0 5 0 0 0 0 0 0 0 1 0 0 3 3 0 0 0 0 0 0 0 0 0 3 5 0 0 0 0 0 0 3 3 0 0 0 0 
+rbroni2
+0 0 0 0 3 3 0 0 0 0 0 0 0 1 1 5 0 0 1 0 0 0 0 0 0 0 0 3 1 0 3 1 0 0 0 0 0 0 5 5 0 0 1 0 3 0 0 0 0 0 0 0 0 0 0 
+Himangi
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+jfowle20
+5 0 0 0 5 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 -3 0 5 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+awang72
+0 0 0 0 0 0 0 0 0 0 0 5 0 5 1 5 0 0 0 0 0 0 0 0 0 0 0 5 5 0 1 1 0 0 0 0 0 0 0 3 0 0 3 0 5 0 0 0 0 0 0 0 0 0 0 
+John
+0 0 0 0 0 -3 0 0 0 0 0 0 1 0 5 0 0 1 5 3 0 0 0 5 0 0 0 5 5 0 5 0 0 1 0 -3 0 0 0 0 0 0 3 0 0 0 5 1 0 5 5 0 0 0 0 
+pludwa2@uic.edu
+0 0 0 0 0 0 0 1 0 0 1 0 0 3 5 0 0 0 0 0 0 0 0 0 0 0 0 -3 -3 0 1 5 0 0 0 1 0 0 0 0 0 3 5 0 0 0 0 0 1 1 3 0 0 0 0 
+Erica
+5 3 0 1 0 0 0 -3 0 0 1 3 0 1 0 0 5 0 5 0 0 0 0 0 0 0 0 0 0 0 3 3 1 5 0 1 0 5 -3 3 5 0 3 5 0 0 0 0 0 5 5 0 5 0 0 
+jwisem6
+5 0 0 0 1 0 3 0 0 3 0 5 0 1 -3 0 3 3 1 0 3 0 0 3 0 3 0 0 0 0 0 1 0 0 0 0 5 0 1 3 0 3 3 3 0 0 1 0 0 5 5 0 0 5 5 
+floza4
+0 0 3 3 3 3 0 0 0 1 0 -3 0 3 3 1 5 0 3 0 3 3 0 0 -3 0 0 5 -3 1 5 5 0 5 1 -5 -3 -3 -5 3 1 3 -5 -3 0 0 0 0 0 3 -3 0 0 0 0 
+kp0502
+0 0 0 0 1 0 0 0 1 3 3 1 0 1 1 0 0 0 1 1 0 0 0 1 0 0 0 0 0 0 1 5 5 0 0 1 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 1 0 
+rjasia2
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 
+Kozmo
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+asunda23
+3 0 1 0 3 5 3 0 1 5 0 1 3 5 5 5 5 3 3 5 0 0 0 0 0 1 3 5 5 1 3 5 3 5 0 5 0 3 0 0 1 3 5 0 5 3 3 0 0 5 5 0 3 0 0 
+tfox
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 
+acarr20
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 5 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 
+rmundr3
+0 0 0 0 0 0 0 0 0 0 0 0 0 -3 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+Megh Patel
+5 3 0 0 3 0 0 -3 0 0 0 5 -3 3 5 0 0 5 5 3 1 0 0 0 0 0 3 1 5 -3 5 0 0 0 0 -5 0 0 0 0 0 0 3 0 0 0 3 -3 0 5 5 1 5 0 0 
+vcayas2
+0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 -3 0 0 0 0 0 0 0 0 0 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+rhusai2
+-5 -3 0 1 3 5 3 1 0 -3 -5 -3 0 1 3 5 3 1 1 0 -3 -5 -3 0 1 3 5 3 1 1 0 -3 -5 -3 0 1 3 5 3 1 0 -3 -5 -3 0 1 3 5 3 1 0 -3 -5 -3 0 
+yaum2
+3 0 1 0 3 -5 1 -3 0 1 -5 3 3 3 3 3 1 0 1 -3 3 0 0 1 0 1 0 -3 -3 0 1 3 0 -3 0 -5 0 1 3 1 0 1 3 3 1 0 0 0 0 5 3 0 3 0 0 
+ainsal2
+0 0 5 0 0 0 0 0 0 1 0 0 1 5 5 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 -3 0 0 0 5 0 0 3 1 0 0 0 0 0 0 0 0 0 0 0 
+Shawn
+3 1 0 -3 5 1 -5 3 1 -3 0 -5 -5 -5 1 0 0 0 0 5 5 1 3 3 5 1 5 -3 0 -5 -5 0 -3 -5 -5 1 -3 -5 -3 -3 3 5 0 0 0 1 -3 0 1 3 5 -5 0 1 -3 
+Ankit42
+3 0 0 1 3 0 -3 -3 0 5 3 5 5 5 1 3 1 0 1 0 1 0 0 -3 0 0 0 5 5 0 5 5 5 5 3 -3 0 5 5 5 0 1 5 3 5 1 0 0 0 5 5 0 5 0 0 
+bryanzb
+3 0 0 0 0 0 0 0 0 0 0 3 0 3 -5 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 -5 0 0 0 0 0 0 3 0 0 0 0 3 3 0 0 0 0 0 0 0 0 3 0 0 
+Kid C++di
+5 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 3 0 0 0 0 1 0 3 0 0 0 0 0 0 0 5 0 0 0 1 0 1 0 0 0 -3 0 0 3 0 0 0 0 0 0 0 0 
+jeslopez
+0 0 0 3 0 1 0 1 0 0 3 0 0 3 1 0 0 0 -3 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 5 0 0 0 0 0 0 0 0 
+psreer3
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 5 0 0 0 0 5 3 0 0 0 5 0 0 0 0 0 0 0 
+Sam
+5 3 0 0 0 0 3 0 0 0 0 5 0 3 1 0 0 0 -3 3 0 0 0 0 0 0 0 0 0 0 5 3 0 1 0 0 0 3 3 0 0 0 5 0 0 0 0 0 0 5 5 0 0 0 0 
+jcorona3
+0 0 0 0 0 3 0 0 0 0 0 0 0 3 3 0 0 0 5 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 3 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 
+Bairez14
+0 0 0 0 0 3 0 1 0 0 0 0 0 1 5 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 3 0 3 0 -3 0 0 0 1 0 0 1 3 1 0 0 0 0 0 0 0 0 0 0 
+Cole Pearson
+0 0 0 0 3 0 0 0 0 3 0 1 0 3 3 0 0 0 -3 3 0 0 0 0 0 0 0 3 0 0 3 3 0 3 0 0 0 3 0 5 0 0 5 1 0 0 5 0 0 5 5 0 3 0 0 
+dani_v
+5 0 0 0 3 1 0 1 0 1 1 0 0 3 3 0 0 0 3 3 0 0 0 0 0 1 0 0 0 0 -3 3 0 1 0 -3 0 1 0 5 0 0 5 5 0 0 0 0 0 3 3 0 0 0 0 
+Anwar
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Donut
+0 0 0 0 1 1 0 -3 0 0 0 0 -3 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 3 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Mosrour
+3 1 5 0 5 5 0 0 3 0 0 0 0 5 0 0 5 0 0 0 5 0 5 0 0 0 0 0 0 0 0 0 0 5 0 5 0 0 0 0 5 0 5 0 0 0 0 0 0 0 0 0 0 5 0 
+ebugar4
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+squeaky
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 
+Sami
+3 0 0 1 0 0 0 1 0 3 3 0 0 5 3 0 0 0 0 3 0 0 0 0 0 3 0 1 1 0 3 0 0 0 0 5 0 0 0 0 0 0 5 3 -3 0 0 0 0 5 1 0 3 0 0 
+elieckhaus
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 
+tpham54
+0 0 3 0 0 3 0 0 0 3 0 5 0 3 0 5 0 3 0 3 0 0 0 5 0 0 0 0 3 0 3 0 0 0 0 0 0 1 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+root
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Boruto's Dad 
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 0 3 0 0 0 0 0 0 0 0 5 0 0 5 0 0 0 0 -3 0 5 5 0 0 0 5 0 0 0 0 0 0 5 5 0 0 0 0 
+kpate400
+-5 -3 0 0 1 1 3 3 5 5 -5 -5 -3 -3 0 0 1 1 3 3 5 5 -5 -5 -3 -3 0 0 1 1 3 3 5 5 -5 -5 -5 -3 -3 -3 0 0 0 1 1 1 3 3 3 5 5 5 -5 -5 5 
+CodeWanderer
+-3 0 1 3 5 1 0 0 1 1 5 3 1 0 3 3 1 1 1 5 5 5 5 5 3 3 1 5 5 3 1 0 5 -3 -3 5 3 3 3 3 3 5 5 3 3 3 3 3 1 1 5 3 3 5 0 
+lunari
+0 0 0 0 0 0 0 0 0 0 0 0 0 5 5 0 0 0 3 0 0 0 0 0 0 0 0 5 5 0 1 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+rmalon8
+3 0 0 0 3 0 0 0 0 3 0 0 0 0 3 0 0 0 5 0 0 0 0 0 0 5 0 0 0 0 0 5 0 0 0 0 0 0 0 -3 0 0 3 0 5 0 0 0 0 5 5 0 3 0 0 
+chez
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 5 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 3 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 
+amieki2
+0 0 0 3 1 0 0 0 0 1 0 3 0 5 5 0 0 0 0 0 0 0 0 1 0 0 0 5 3 0 3 0 0 0 0 -3 0 1 0 0 1 0 0 3 1 0 0 5 0 0 0 0 0 0 0 
+Saahi22
+0 0 0 0 0 1 0 0 0 0 3 0 0 5 5 0 0 0 0 0 0 0 0 0 0 0 0 5 5 0 3 5 1 1 0 3 0 1 0 1 0 0 5 5 0 0 0 0 0 1 1 0 1 0 0 
+Carl Brutananadilewski
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Besher
+0 0 0 0 0 1 0 0 0 1 0 3 0 3 -3 0 0 0 0 5 0 0 0 0 0 0 0 5 0 0 3 0 5 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+lovecs251
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Teddy_Zaremba
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+jibreel mohamed
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 1 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 
+cmiram2
+0 0 0 0 0 -3 0 0 0 -3 0 0 3 -3 1 0 0 0 5 0 0 0 0 0 0 0 0 3 -3 0 1 -3 0 3 0 -5 0 3 0 5 0 0 0 0 5 0 0 0 0 5 5 0 -3 0 0 
+anavar38
+5 0 0 0 5 -5 0 -3 -3 -3 -5 -3 -5 1 3 0 0 0 5 -5 0 0 3 3 0 1 0 5 5 0 5 1 -3 1 0 -3 0 5 -3 5 3 3 5 5 5 0 5 5 0 5 5 0 5 0 0 
+Yonas Neguse
+3 3 1 3 1 1 1 3 1 3 1 3 1 1 3 3 1 1 3 1 1 1 1 1 3 3 3 3 5 5 5 5 3 1 1 1 1 3 5 3 3 3 3 3 5 5 5 3 5 3 5 5 5 3 3 
+Colonel_Sanders
+0 0 0 0 0 0 0 0 0 5 0 0 3 -3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 3 1 5 1 0 0 0 -5 0 0 0 0 0 1 3 0 0 0 1 0 0 3 1 0 1 0 0 
+kshah211
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 
+jas_n
+0 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+teusz07
+0 1 3 0 3 3 0 0 3 3 -3 -5 0 5 3 1 1 0 -3 -3 -5 0 1 0 0 1 1 0 -3 3 5 3 0 1 1 -3 -3 0 1 3 1 3 5 3 0 1 0 1 3 1 1 1 1 0 0 
+joe117
+0 0 0 0 0 1 1 0 0 1 0 0 3 0 5 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 5 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Esho
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+alianna2
+0 0 0 0 0 0 0 0 0 0 3 3 0 1 3 0 3 0 0 0 0 0 0 0 0 0 0 3 5 0 0 0 0 5 0 0 0 3 0 0 0 3 5 3 5 0 0 0 0 0 0 0 0 0 0 
+asanro3
+0 0 0 0 0 0 0 0 0 1 0 3 0 1 5 0 0 0 0 0 0 0 0 0 0 0 0 5 5 0 3 0 3 3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 3 3 0 3 0 0 
+non_fiction_odicho
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+itsme_hisham
+0 0 0 0 0 1 0 0 0 0 0 0 3 5 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 5 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 
+jishma2
+5 0 1 0 0 1 0 0 0 5 -3 5 1 3 1 1 0 0 5 5 0 1 0 0 0 5 0 0 0 0 5 5 0 0 0 -5 0 0 -3 0 0 0 0 1 3 0 0 0 0 3 1 0 0 0 0 
+ashqueen
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+SpeedyGonzalez
+0 0 3 0 0 3 0 0 0 3 0 0 0 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 -3 1 0 0 0 0 5 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Azeem
+0 0 0 0 0 0 0 0 0 3 3 0 5 5 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 5 0 0 0 0 0 3 0 0 0 0 0 0 0 5 5 0 0 3 0 
+Medo Hassan
+0 0 0 3 5 3 0 0 0 0 0 0 0 5 5 1 1 0 5 0 0 0 1 5 3 0 0 5 0 0 5 0 0 5 0 -3 0 5 0 0 0 0 -3 0 1 0 0 0 0 0 0 0 1 0 0 
+aescutia21
+0 0 0 0 3 1 0 0 0 1 0 3 0 3 3 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 3 3 0 1 0 -3 0 0 0 1 0 0 5 0 5 0 0 0 1 0 0 0 0 0 0 
+hahmed999
+0 0 3 0 0 0 0 0 0 0 0 5 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 5 5 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 
+kchyc2
+0 0 3 0 0 1 0 0 0 3 3 3 0 1 1 0 0 0 3 3 0 0 0 0 0 0 0 5 1 0 3 3 0 0 0 -3 0 3 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 
+mnchew2
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 
+sana.abbasi
+0 0 0 5 5 1 0 0 0 1 0 0 0 3 3 0 1 0 -5 0 0 0 0 0 0 0 0 1 1 0 5 0 0 0 0 1 0 5 0 5 0 0 3 3 0 0 0 0 0 0 0 3 0 0 0 
+VER
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 1 3 5 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 5 5 0 0 0 0 
+Liza_rd
+0 0 0 0 0 -3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 5 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 
+htan21
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 1 0 0 0 0 0 0 0 0 0 0 5 1 0 1 0 0 0 0 0 0 1 0 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+shoma2
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 -3 0 0 3 0 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 3 1 0 0 0 0 
+pmccar5
+3 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 3 0 0 1 0 0 0 0 0 0 0 5 0 0 0 0 
+srahma41
+0 0 0 3 0 -3 0 0 0 1 5 0 0 3 5 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 3 0 5 0 0 -3 0 0 0 0 0 0 5 1 0 0 3 0 0 0 0 0 0 0 0 
+cflood4
+0 0 0 0 0 -3 0 0 0 3 -5 3 0 3 -3 0 0 0 5 -5 0 0 0 0 0 3 0 0 0 0 3 5 0 3 0 -5 0 3 0 3 0 0 -3 5 0 0 0 0 0 3 5 0 0 0 0 
+Barty
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 3 0 0 0 0 5 0 0 0 0 0 0 3 5 0 0 0 0 
+msales3
+0 0 0 0 3 3 0 0 0 0 3 0 0 5 5 0 0 0 0 0 0 0 0 0 0 0 0 5 5 0 0 3 0 0 0 -3 0 0 0 0 0 0 5 1 0 0 0 0 0 0 0 0 0 0 0 
+amoran9
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+BrandonNoyes
+0 0 1 1 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 -3 0 0 0 0 0 1 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 
+oherna25
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 5 0 0 0 0 0 0 5 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 
+tkaczyk3
+0 0 0 0 0 1 0 0 0 3 0 3 0 1 5 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+Akash
+1 0 0 3 1 3 0 0 1 5 1 0 3 1 0 0 1 0 3 1 3 1 0 3 0 0 1 5 3 0 3 0 1 3 0 3 0 0 1 0 1 0 3 0 0 3 0 0 1 5 3 0 3 3 0 
+Hina
+0 0 0 0 3 3 1 0 0 3 3 3 0 5 3 5 3 1 3 -3 0 0 0 3 0 0 0 0 0 1 5 3 3 5 3 5 0 3 0 0 0 3 5 0 0 0 1 3 0 5 5 3 3 3 0 
+jgallo6
+5 0 0 0 0 0 0 3 0 0 1 1 3 3 5 5 3 5 1 1 1 0 0 0 0 0 0 5 5 0 1 3 3 0 0 0 0 1 3 0 0 1 5 3 5 0 0 0 0 3 3 0 0 0 0 
+Triquan16.01
+0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 3 0 3 0 0 0 0 0 0 5 0 0 0 0 0 0 1 0 0 0 0 0 
+BugsBunny
+0 1 0 1 0 0 0 1 1 5 5 3 -3 5 5 3 0 1 -3 3 -3 -5 -3 0 1 3 5 5 -5 1 3 5 3 5 3 5 -5 -3 0 0 5 3 5 -3 0 0 1 0 -3 1 1 0 -5 0 1 
+fizz
+0 0 0 0 0 3 0 0 0 3 0 3 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 
+armiger2
+5 0 0 0 0 0 0 0 0 -5 0 -5 0 -3 1 3 -3 0 -3 0 0 0 0 1 0 0 0 5 0 0 1 1 0 5 0 0 0 0 -3 0 0 0 5 3 0 0 0 0 0 0 -3 0 0 0 0 
+asdfjkl;
+0 0 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 0 3 0 0 0 0 0 0 0 3 0 0 1 0 0 0 3 0 0 1 1 0 0 0 0 
+aleenalbert
+0 0 0 0 1 -5 0 0 0 3 3 5 5 -5 5 -3 1 0 3 3 0 0 0 0 0 0 0 0 0 0 5 3 1 0 0 0 0 -3 5 -3 0 -3 5 5 0 0 0 0 0 5 5 0 0 0 0 
+Nightman
+5 0 0 0 0 -5 0 -3 0 3 1 1 3 5 5 0 0 0 1 0 0 0 0 -3 0 0 0 5 5 0 5 5 0 3 0 -5 0 5 1 0 0 1 3 1 5 0 0 0 0 3 1 0 1 0 0 
+dserra22
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 3 0 0 0 0 0 0 0 1 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 
+belol726
+0 0 0 0 0 0 0 0 0 3 0 0 0 5 5 0 0 0 5 5 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 -3 0 0 0 3 0 0 5 0 0 0 0 0 0 1 1 0 0 0 0 
+FamFrank
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 5 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+afries4
+0 0 0 0 0 1 0 0 0 0 1 5 0 5 5 0 0 3 -3 5 0 0 0 0 0 0 0 5 5 0 1 3 5 3 0 -3 0 3 5 3 0 0 5 1 0 0 1 0 0 5 5 0 0 0 0 
+gricoj2
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 3 0 0 0 0 0 0 0 0 0 0 0 3 3 5 0 0 0 0 0 0 0 0 0 0 
+b28aguilar
+0 0 0 0 0 1 0 0 0 0 0 1 0 3 0 3 0 0 0 3 0 0 0 0 0 0 0 5 0 0 1 1 0 1 0 0 0 5 0 3 0 1 3 0 0 0 0 0 0 0 0 0 0 0 0 
+Elephant
+0 1 1 0 3 3 0 1 0 3 0 0 0 5 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 1 0 5 1 3 0 0 0 0 0 0 3 0 0 0 0 0 0 3 3 0 0 0 0 
+cmei25
+0 0 0 0 0 0 0 0 0 0 0 1 1 1 -3 1 0 0 1 0 0 0 0 0 0 0 0 1 3 0 -3 0 0 0 0 0 0 0 0 1 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Meraj
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+bananaBreadPudding57
+0 0 0 0 5 1 0 3 0 0 5 0 0 5 3 0 0 0 3 3 0 0 0 0 0 3 0 0 0 0 5 5 0 0 0 1 0 5 0 0 1 0 5 5 0 0 0 3 0 0 0 0 0 0 0 
+mcarno2
+5 3 0 0 0 0 5 0 0 1 0 3 0 0 3 1 1 5 0 0 0 0 0 0 0 0 0 0 0 0 5 3 0 3 0 0 0 5 1 3 0 5 3 5 0 0 0 0 0 5 5 0 5 0 0 
+NicdaoG
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 1 0 0 5 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 3 1 0 0 0 0 0 0 0 0 0 0 0 
+nivek
+3 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 5 0 3 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 
+Danielle
+0 5 0 3 5 0 0 3 0 3 1 5 0 1 -3 0 3 0 -5 1 0 0 0 0 0 0 0 0 5 0 -5 5 3 0 0 1 0 0 5 0 0 5 3 5 0 0 5 5 0 5 5 0 0 1 0 
+vp98
+0 0 0 0 0 1 0 0 0 5 0 0 0 5 3 0 0 0 1 0 0 0 0 0 0 0 0 3 0 0 1 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 0 0 
+Caleb
+1 0 0 0 0 0 0 0 0 1 0 0 0 3 3 0 0 0 1 0 0 0 0 0 0 0 0 3 1 0 3 0 0 0 0 0 0 3 3 0 0 0 5 0 3 0 0 0 0 5 5 0 0 0 0 
+Kadan
+3 0 0 0 1 0 5 0 0 0 0 5 0 5 3 5 0 0 1 0 0 0 0 0 0 0 0 1 0 0 -3 5 0 0 0 0 0 0 5 3 0 0 5 0 0 0 5 0 0 5 5 0 0 0 0 
+hchan34
+0 0 0 0 0 0 0 0 0 3 0 0 0 -3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 -5 0 0 0 0 3 0 3 0 0 0 0 0 0 3 3 0 0 0 0 
+Nick R.
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3 1 0 0 0 1 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+neelu_nerella
+0 0 0 0 0 -3 0 0 0 0 1 0 0 5 -3 0 0 0 0 0 0 0 0 -5 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 
+maprez3
+0 0 0 0 0 1 0 0 0 1 -3 1 0 3 5 0 0 0 5 -3 0 0 0 0 0 0 0 1 3 0 5 -5 0 1 0 1 0 1 -3 0 0 0 -3 1 0 0 0 0 0 5 5 0 0 0 0 
+zbekbo3
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3 -5 -3 0 1 3 5 3 1 0 -3 -5 -3 0 1 3 5 3 1 0 -3 -5 -3 0 1 3 5 
+Jeffin
+0 0 0 0 1 0 0 0 0 0 0 3 0 5 3 0 0 0 3 0 0 0 0 0 0 0 0 5 3 0 1 0 0 3 0 1 0 0 0 0 0 0 5 3 1 0 1 0 0 1 1 0 0 0 0 
+Brandon Gonzalez
+0 0 0 0 0 3 0 0 0 0 0 0 0 5 5 0 0 0 -5 0 0 0 0 0 0 0 0 3 0 0 1 0 0 3 1 -3 0 5 0 5 0 0 -3 3 0 0 0 0 0 -3 -3 0 0 0 0 
+xmeng23
+0 1 0 0 1 0 0 0 0 3 0 0 0 3 3 0 0 3 0 0 0 0 3 0 0 0 0 3 0 3 0 0 0 0 0 3 0 0 0 0 0 0 3 0 0 0 0 0 0 3 0 0 0 3 0 
+Orly
+0 0 0 0 0 0 0 0 0 1 0 0 1 3 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 3 1 3 3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 3 1 0 0 0 0 
+swang299
+3 0 0 0 0 3 0 0 0 5 1 1 0 5 1 0 0 0 0 0 0 0 0 1 0 0 0 5 1 0 3 0 0 1 0 -3 0 1 0 0 0 0 3 0 3 0 0 0 0 3 3 0 0 0 0 
+dsheik2
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 1 0 1 0 0 3 0 3 0 1 1 0 1 1 0 1 0 0 0 3 0 3 0 0 1 1 1 0 3 5 0 0 0 0 0 0 0 
+ccasim2
+0 0 0 0 0 0 0 0 0 1 0 5 0 5 3 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 3 5 0 0 0 0 0 0 0 0 0 0 5 0 3 0 0 0 0 5 5 0 0 0 0 
+David99
+0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 
+asalga24
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+rak3rman
+0 3 0 0 0 0 0 0 0 3 0 5 0 3 5 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 3 0 0 5 5 0 0 0 0 0 3 3 0 0 0 0 
+Icon21
+0 0 0 0 0 3 0 0 0 0 0 0 0 3 3 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 5 0 0 0 -3 0 3 5 0 0 0 5 5 0 0 0 0 0 5 5 0 0 0 0 
+magic
+0 0 0 0 0 0 0 0 0 5 0 5 0 5 5 5 0 0 0 0 0 0 0 0 0 5 0 5 5 0 0 3 1 0 0 0 0 0 3 0 0 0 5 3 5 0 0 0 0 3 3 0 0 0 0 
+hnadee2
+0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+DankOranges34
+0 0 0 0 0 0 0 0 0 3 0 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 3 1 0 -5 0 -3 0 3 0 0 3 3 0 0 0 0 0 0 0 0 3 0 0 
+kamihada
+0 0 0 0 3 1 0 0 0 3 3 0 0 0 5 0 0 0 0 3 0 0 0 3 0 0 0 5 5 0 3 0 0 0 0 5 0 1 0 3 0 0 3 0 5 0 0 0 0 0 0 0 0 0 0 
+jgarc241
+0 0 5 0 0 5 0 0 0 5 5 0 0 5 5 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 5 0 5 5 0 5 0 0 0 0 0 0 5 5 0 0 0 0 0 0 0 0 0 0 0 
+mcowl
+0 0 0 0 0 0 0 3 0 0 3 3 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3 0 0 3 0 5 0 0 5 0 3 1 0 3 0 0 0 0 0 0 1 0 0 0 0 
+mikeli
+0 0 0 0 3 0 0 1 0 3 0 0 0 1 5 0 0 0 3 0 0 0 0 1 0 3 0 0 0 0 3 3 0 0 0 0 0 3 0 0 0 5 5 0 0 0 0 0 0 1 3 0 0 0 0 
+kheath3
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 3 0 0 0 0 3 0 3 0 1 -3 0 3 3 0 0 0 -5 0 0 1 0 0 0 3 3 0 0 0 3 0 3 3 0 0 0 0 
+Frog
+5 0 0 0 3 0 5 0 0 0 0 -5 3 -5 -5 3 0 0 1 5 0 0 0 3 0 0 0 5 5 0 5 3 3 5 0 5 0 5 3 5 0 0 5 0 5 0 1 0 0 0 0 0 5 0 0 
+kpate391
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 
+djolero
+3 -3 0 0 -5 -3 5 0 0 1 -5 -3 1 3 3 0 -5 -3 3 -3 -5 1 -3 1 0 0 0 5 5 -5 3 3 0 1 3 -3 -3 -5 0 3 0 1 5 -3 -5 -5 0 1 -3 3 5 -3 3 -3 0 
+Storm
+-5 -3 0 1 3 5 3 1 0 -3 -5 -3 0 1 3 5 3 1 0 -3 -5 -3 0 1 3 5 3 1 0 -3 -5 -3 0 1 3 5 3 1 0 -3 -5 -3 0 1 3 5 3 1 0 -3 -5 -3 0 1 3 
+jhurta9
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Siddharth09
+0 3 3 0 0 3 0 0 0 5 0 1 0 0 5 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 5 0 3 0 0 0 0 0 0 5 0 0 0 0 3 0 5 5 0 5 0 0 
+canarino_al_cioccolato
+0 0 0 0 0 0 0 0 0 3 0 0 0 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 
+faigne2
+0 0 0 0 0 0 0 3 0 0 3 0 0 5 3 0 0 0 5 0 3 0 0 5 0 0 0 0 0 0 5 3 0 -3 0 0 0 0 0 3 0 0 0 5 0 0 0 0 0 3 3 0 0 0 0 
+amadni2
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 5 3 0 0 0 0 0 0 0 0 1 0 0 0 0 1 5 5 0 0 0 0 0 0 0 0 0 0 
+efeder2
+0 0 0 0 0 0 0 0 0 5 1 1 0 1 5 1 5 0 1 5 0 0 0 0 0 0 0 -3 0 0 1 5 0 1 0 -3 0 0 0 0 0 3 3 0 0 0 0 0 0 3 5 0 0 0 0 
+ldmoy2
+0 0 0 0 0 3 0 0 0 0 0 5 0 0 5 5 0 0 5 0 0 0 0 0 0 0 0 1 1 0 3 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 
+rbarra6
+0 0 0 0 3 1 0 0 0 0 1 0 0 5 5 0 0 0 0 1 0 0 0 0 0 0 0 5 0 0 3 1 0 1 0 1 0 3 0 5 0 0 3 3 3 0 0 0 0 0 0 0 0 0 0 
+boky
+3 0 0 0 0 -3 0 0 0 3 1 0 0 3 1 0 0 0 -3 0 0 0 0 0 0 0 0 5 -3 0 3 1 0 0 0 0 0 3 0 5 0 -3 0 0 0 0 3 1 0 0 0 0 1 0 0 
+apalac23
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 1 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 
+freezeroid
+0 0 0 0 0 -3 0 0 0 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 3 5 0 3 5 0 5 0 -5 0 5 5 0 0 3 5 0 5 0 0 0 0 5 1 0 0 0 0 
+prod1gy
+0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 
+burhan
+0 0 0 0 3 5 0 0 0 5 5 1 0 5 5 0 5 0 3 0 0 0 0 0 0 0 0 5 0 0 3 0 0 0 0 1 0 0 5 5 0 0 5 5 0 0 5 0 0 0 0 0 0 0 0 
+rruiz30
+0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 3 0 0 0 0 5 3 0 0 0 0 0 5 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 
+fkhan78
+0 0 -3 3 0 0 1 0 0 3 0 0 3 5 3 -3 0 0 0 0 -3 0 0 3 0 0 -3 0 0 5 5 -3 0 0 1 -3 0 0 0 3 -3 0 5 0 0 3 0 0 5 3 5 0 -3 0 1 
+emily
+0 0 3 1 5 5 0 3 0 5 5 5 -3 5 5 -3 0 0 -3 5 0 0 0 -5 -3 0 0 0 0 0 5 -3 0 3 0 -5 0 0 0 3 0 0 0 1 -5 1 0 0 0 -3 -3 1 1 -3 -3 
+msweis8
+0 0 0 0 3 1 0 3 0 5 1 1 1 5 3 0 0 0 5 1 0 0 0 3 0 0 0 0 0 0 1 1 1 3 0 1 0 5 1 3 0 0 5 0 0 0 1 0 0 0 1 0 1 0 0 
+Harshil Bhatt
+0 1 0 -3 1 0 1 0 0 0 -5 0 -3 1 -3 0 0 1 3 5 3 1 0 -3 -5 0 1 3 0 -3 -5 0 0 0 0 0 -3 1 3 5 3 1 5 3 1 0 -3 -5 -3 -5 -3 -5 -3 -3 -3 
+Mirac Kara
+5 0 0 0 0 1 0 1 0 0 0 -3 0 1 3 0 0 0 -3 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0 0 1 0 3 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+dwarr3
+0 0 0 0 0 1 0 0 0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 0 0 0 0 5 5 0 3 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 1 1 0 0 0 0 
+khwang21
+0 0 0 0 0 1 0 0 0 1 0 1 0 1 3 0 -3 0 0 0 0 0 0 0 0 0 0 1 1 0 3 1 0 0 0 -3 0 0 0 0 0 0 1 1 0 0 1 0 0 0 1 0 0 0 0 
+Amaan
+0 0 0 0 0 1 0 0 0 0 1 0 0 5 3 0 0 0 1 0 0 0 0 0 0 0 0 5 0 0 -3 3 3 3 0 1 0 0 3 0 0 1 5 3 0 0 0 0 0 5 5 0 0 0 0 
+ypatel49
+1 0 1 3 1 3 -3 5 0 1 1 -3 0 5 5 5 0 5 3 3 5 -3 3 5 1 0 0 0 3 1 5 -3 1 1 -3 3 -5 1 0 1 0 1 5 5 1 1 0 1 3 0 0 1 -3 3 0 
+tkhan34
+0 0 0 0 0 -3 0 3 0 3 3 1 0 3 -3 3 0 0 -5 1 0 0 0 -3 0 1 0 0 0 0 3 3 0 0 0 0 0 1 3 -3 3 0 3 3 0 0 0 0 1 1 1 0 0 0 0 
+RecTech
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 1 0 0 0 0 3 0 0 0 0 0 0 1 0 1 0 1 0 
+JManqu2
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+dgallu2
+0 0 0 0 0 0 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+sohaga2
+0 0 0 0 0 0 0 0 0 0 0 5 0 5 3 5 0 0 5 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 5 5 0 0 5 5 0 0 5 5 0 5 5 0 0 0 0 
+ebrede2
+0 0 0 0 0 0 0 0 0 1 0 0 0 5 1 0 0 0 3 0 0 0 0 5 0 0 0 3 5 0 1 0 0 0 0 0 0 5 5 0 0 0 0 0 3 0 0 0 0 0 0 0 5 0 0 
+Youshu
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 
+Muhammed Mbow
+0 0 -5 1 -5 0 1 -5 0 0 0 0 0 1 -3 -3 -3 0 1 0 -3 0 1 0 -3 0 1 1 0 -3 0 1 0 -3 3 -5 1 0 0 -3 1 -3 -3 1 -3 -3 0 1 -3 1 0 1 -3 0 5 
+hxu65
+1 0 3 1 3 0 5 5 3 1 3 3 1 5 1 0 0 1 1 0 3 0 1 1 0 3 3 1 5 3 5 1 1 3 1 0 1 5 0 3 1 0 1 0 0 1 0 1 0 1 0 3 1 0 1 
+Sunny
+0 0 0 0 0 0 0 0 0 5 0 0 3 5 5 0 0 0 0 0 0 0 0 0 0 0 0 5 5 0 0 0 0 5 0 1 0 0 0 0 0 0 5 0 0 0 3 0 0 5 5 0 0 0 0 
+Savila25
+0 0 0 0 1 0 0 0 0 0 0 5 0 3 0 0 0 0 5 1 0 0 0 0 0 0 0 0 0 0 3 1 0 0 0 3 0 5 0 5 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+aalawi5
+0 0 1 0 0 -3 -3 0 1 1 3 1 -5 0 0 1 0 0 1 0 1 0 0 1 -3 -5 -5 5 0 5 0 3 1 0 1 3 0 1 -5 0 0 0 5 0 1 0 0 0 -3 0 0 0 1 0 1 
+OldSpice1234
+0 0 0 0 0 -3 0 0 0 0 0 0 1 3 5 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 
+Yesh S
+0 0 0 0 0 1 0 0 0 0 -3 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 3 0 0 0 0 0 
+herve001
+3 0 0 1 1 3 3 0 -3 3 0 0 0 1 1 3 3 1 1 0 -3 -3 -3 -3 0 0 1 5 5 3 1 3 5 3 3 3 0 1 0 0 0 0 5 1 1 1 1 3 0 5 5 3 5 3 0 
+tlimba2
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 5 1 0 0 0 0 0 0 0 0 0 0 0 
+emonte9
+0 0 0 0 1 -3 1 1 -3 -3 0 0 0 5 3 0 0 0 0 0 5 0 0 0 0 0 0 5 5 0 0 0 0 0 0 -5 0 0 0 0 0 0 5 0 0 0 0 0 0 5 5 0 3 0 0 
+nik
+0 1 0 0 0 0 1 0 0 5 0 0 1 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 3 1 0 0 0 0 
+sora2781
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+recommended122
+0 0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 -3 0 0 0 0 0 0 0 0 0 0 0 1 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Gus
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 -3 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+cgalar5
+1 0 0 0 1 -3 0 0 0 1 5 5 0 5 5 0 0 0 3 1 0 0 0 1 0 3 0 5 5 0 1 1 3 0 0 0 0 3 1 0 0 3 3 5 0 0 0 0 0 3 3 0 0 0 0 
+hchris6
+3 0 0 0 0 1 0 3 0 0 3 3 0 3 1 0 3 0 1 0 0 0 0 0 0 0 0 1 0 0 1 3 0 1 0 1 0 0 1 1 0 1 3 1 0 0 0 0 0 1 0 0 0 0 0 
+mwu52
+5 0 0 0 3 0 0 0 0 5 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 3 5 0 0 0 0 0 0 
+pattyv
+0 0 0 0 0 0 0 0 0 0 0 0 0 5 5 0 0 0 0 0 0 0 0 0 0 0 0 5 5 0 0 0 0 5 0 0 0 0 0 0 0 0 -5 0 0 0 0 0 0 5 5 0 5 0 0 
+sp1109
+0 0 0 0 3 0 0 3 0 0 0 0 0 3 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 5 5 0 0 0 0 0 0 0 0 0 0 0 
+kannam2
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ajpudi
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 3 5 3 0 0 5 0 0 0 0 0 0 0 0 
+Hao
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 5 0 1 0 0 0 0 0 0 3 0 0 0 1 0 0 3 0 0 0 0 0 
+sjoy5
+0 0 0 0 0 0 0 0 0 0 0 0 0 5 3 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 3 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 
+bperzee1
+0 0 0 0 3 0 0 0 0 0 0 0 0 5 3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 5 0 0 0 0 1 0 0 0 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 
+bkopec4
+-5 0 -3 1 0 -3 3 5 3 1 -3 -5 3 5 3 0 -5 -3 3 0 0 0 5 3 5 3 1 0 -3 -5 -5 -5 -3 0 1 1 0 3 5 0 1 -3 -3 -5 0 -5 0 3 1 1 1 1 0 -3 -5 
+balani3
+0 0 0 0 0 1 0 0 0 -3 0 0 0 3 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 3 0 0 0 0 1 0 0 0 0 0 3 0 0 3 0 0 0 0 0 0 0 0 
+Connor
+0 0 0 0 0 3 0 0 0 3 0 1 0 1 3 0 0 0 1 0 0 0 0 0 0 0 0 5 3 0 3 1 0 1 0 1 0 0 0 0 0 3 3 0 0 0 0 0 0 3 3 0 0 0 0 
+derBearJew
+5 3 0 0 1 0 -3 1 0 3 1 3 1 5 5 0 0 0 3 5 0 0 1 0 0 -3 0 3 5 0 3 3 3 5 0 -5 0 5 -3 0 0 3 5 0 5 0 0 0 3 5 5 0 5 0 3 
+smui7
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Ash
+0 0 0 0 0 1 0 0 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 5 0 0 3 0 5 5 0 3 0 0 0 0 0 0 5 0 0 0 0 0 0 3 3 0 0 0 0 
+max
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tapan
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+leedallas
+3 0 0 0 0 0 0 0 0 0 0 5 0 0 1 0 0 5 3 0 0 0 0 5 0 1 0 0 0 0 -5 0 0 0 0 0 0 5 0 3 0 0 0 0 0 0 0 0 0 5 5 0 0 0 0 
+Kaif
+0 1 0 0 0 1 3 0 3 1 1 1 0 1 0 0 1 1 3 3 1 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 3 0 0 0 0 0 0 0 0 1 
+amandaa2
+0 0 0 0 3 3 0 1 0 3 3 0 0 5 5 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 3 5 1 1 0 3 0 3 0 5 0 0 5 0 0 0 0 0 0 3 0 0 3 0 0 
+celery
+0 0 0 0 3 1 0 0 0 1 0 0 0 1 1 0 0 0 -3 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 -3 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 
+Adelina Carr
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 3 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 
+hgoel3
+0 -3 0 0 0 0 -3 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 1 3 0 0 0 0 
+jmejia35
+0 0 0 0 0 0 0 0 0 0 0 5 0 5 -3 0 0 0 3 0 0 0 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 5 0 0 0 0 0 0 0 0 0 0 0 
+Siham Shweikani
+0 0 0 0 0 0 0 0 0 5 0 0 0 5 0 0 0 0 3 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 3 1 3 0 0 0 0 0 0 3 3 0 0 0 0 
+abarbo8
+0 0 0 0 0 0 0 0 0 0 0 5 0 5 5 0 0 0 0 0 0 0 0 0 0 0 0 5 5 0 0 5 5 5 0 5 0 5 5 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 
+spate593
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ivanmz2
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 3 0 0 0 0 0 0 0 0 1 1 0 5 0 0 3 0 0 0 0 0 3 0 0 0 5 3 0 0 0 0 0 0 0 0 0 0 
+Billybside
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+agalle26
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 5 0 1 0 0 5 0 0 0 0 0 0 0 0 0 1 0 0 
+nyauh
+1 0 0 1 0 -5 0 1 0 1 0 3 0 1 1 0 3 5 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 -3 5 0 1 3 0 5 5 0 1 0 0 0 0 0 0 0 0 0 0 
+Sabber
+0 0 0 0 0 1 0 0 0 1 -3 1 0 5 5 0 0 0 0 0 0 0 0 0 0 0 0 5 3 0 3 5 0 0 0 -3 0 0 1 0 0 0 5 3 0 0 0 0 0 5 5 0 1 0 0 
+eplesa2
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3 0 0 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 
+Nik
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 -3 0 0 0 0 0 0 0 1 0 0 0 0 0 0 5 3 0 0 0 0 
+u676621931
+0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 5 0 0 5 0 0 0 0 0 3 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 
+bsavic3
+0 0 0 0 0 0 0 1 0 3 1 3 3 3 5 1 0 0 3 0 0 0 0 0 0 0 0 5 5 0 3 5 0 0 0 -5 0 3 3 3 0 3 5 3 3 3 0 0 0 5 5 0 3 1 0 
+Afifa
+0 0 0 5 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 5 0 5 5 0 0 0 0 0 0 0 0 0 0 0 
+lamnguyen23
+0 0 0 0 0 3 0 0 0 3 -3 -3 0 0 -3 0 0 0 3 0 0 0 0 0 0 0 0 5 0 0 1 0 0 3 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 3 3 0 0 0 0 
+Viktor Voytanovych
+0 0 0 0 0 0 0 0 0 3 0 0 0 5 3 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 -5 3 0 0 0 -5 0 3 0 0 0 0 5 3 0 0 0 0 0 5 3 0 0 0 0 
+ccolem25
+0 0 0 0 0 0 0 0 0 1 -3 1 1 3 3 0 0 0 3 0 0 0 0 0 0 0 0 5 5 0 1 0 3 1 0 -3 0 5 0 0 0 0 1 5 5 0 0 0 0 5 3 0 0 0 0 
+arafac3
+0 0 0 0 1 0 0 0 0 0 0 0 0 1 5 5 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 3 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 5 5 0 0 0 0 
+nahom
+0 0 1 0 1 3 0 0 0 3 0 0 0 5 1 0 0 0 0 0 0 0 1 0 0 0 -3 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 
+DarkRedLion
+0 0 0 0 -3 0 0 0 0 0 0 0 0 1 3 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 0 0 -3 0 0 0 0 0 0 -3 -3 0 0 0 0 
+aditya
+1 0 1 3 1 3 0 3 5 5 0 1 3 3 5 0 0 0 0 1 1 1 0 3 0 1 1 3 1 1 3 0 1 5 3 -5 0 3 5 0 1 3 5 0 3 3 3 5 0 1 1 1 1 1 1 
+fish123
+5 0 5 3 5 1 5 3 0 3 5 3 -3 3 3 3 0 0 3 3 3 3 1 3 3 3 0 5 5 0 3 3 3 1 0 3 0 3 1 3 3 3 5 3 5 3 3 3 3 3 3 3 0 0 0 
+cdearm2
+0 0 0 0 0 0 0 0 0 5 0 1 0 5 1 0 0 0 5 -5 0 0 0 0 0 0 0 0 0 0 5 5 0 5 0 -3 0 5 0 0 0 5 5 0 0 0 0 0 0 -3 -3 0 0 0 0 
+ksavat2
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 3 0 1 0 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Alejandro
+0 0 0 0 1 1 0 0 0 0 0 0 0 1 3 0 0 0 3 0 0 0 0 0 0 0 0 5 1 0 3 0 0 0 0 1 0 1 0 0 0 0 3 0 0 0 0 0 0 1 1 0 0 0 0 
+mle30
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 3 0 0 0 0 0 0 0 0 
+Sheghi1000
+0 0 0 0 0 0 0 0 0 -5 0 0 0 -5 -3 0 0 0 -5 0 0 0 0 0 0 5 0 0 0 0 5 5 0 0 0 -5 0 -5 0 0 0 0 5 1 0 0 0 0 0 1 0 0 0 0 0 
+Karaziwanc
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ccedge2
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 3 1 0 1 0 0 1 0 1 0 0 0 0 0 0 0 3 0 0 0 0 0 1 0 0 0 0 0 
+qkarp2
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 5 0 0 0 3 0 3 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 -3 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 
+bestra8
+0 0 0 0 0 0 0 0 0 3 0 0 0 1 3 0 0 0 0 0 0 0 0 0 0 3 0 5 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+hpate94
+0 0 0 0 0 5 0 0 0 3 0 3 1 5 5 0 0 -3 -3 0 -3 -3 1 3 0 0 0 0 0 0 5 3 5 0 1 3 0 1 0 5 0 1 5 0 0 0 0 5 0 5 5 0 5 0 0 
+Tameem
+0 0 0 0 0 0 0 0 0 0 0 3 0 -3 1 0 0 0 -3 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 5 1 0 3 0 3 0 0 0 0 0 0 0 0 
+nsotom3
+3 0 0 0 0 0 0 0 0 1 0 5 0 1 3 0 0 0 5 0 0 0 0 1 0 0 0 3 3 0 1 1 1 1 0 -3 0 3 0 0 0 0 3 0 5 0 5 1 0 3 3 0 0 0 0 
+JohnML3
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 0 0 0 1 0 0 0 0 0 0 5 0 5 0 0 -3 0 0 0 0 0 0 0 1 -3 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 
+tlee91
+0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 5 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 
+kahmed28
+0 0 0 0 0 3 -3 -3 -3 -3 0 5 0 5 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 5 5 0 0 0 0 0 0 5 0 0 5 5 5 0 0 0 0 0 5 5 0 0 0 0 
+Dakka
+3 0 0 0 0 -5 0 0 0 3 0 3 0 -5 5 0 0 0 3 0 0 0 0 0 0 0 0 5 5 0 3 3 3 3 0 -5 0 0 0 0 0 3 3 5 5 0 0 0 0 3 3 0 3 0 0 
+irbi1
+0 0 0 0 0 0 0 0 0 0 0 0 0 5 5 0 0 0 3 0 0 0 0 0 0 0 0 3 0 0 3 0 0 5 0 -3 0 0 0 0 0 0 3 0 0 0 0 0 0 5 5 0 0 0 0 
+cgoodw3
+3 1 0 0 0 1 0 -3 -3 -3 0 1 1 3 5 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 5 0 3 0 0 1 3 0 0 0 0 0 0 0 0 0 0 0 
+universalbutterfly
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 3 0 3 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+JonM21
+0 0 0 0 0 0 0 0 0 0 0 0 0 5 5 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 1 0 5 0 5 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 
+rbhuta2
+5 0 0 0 0 -3 5 0 0 5 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 5 0 0 5 0 -3 0 0 0 0 0 0 3 0 0 0 0 0 0 3 5 0 0 0 0 
+Roger
+0 0 0 0 0 0 0 0 0 3 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 5 0 0 0 0 1 5 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 3 5 0 0 0 0 
+akandi2
+0 0 0 0 0 5 0 0 0 1 1 1 0 3 3 0 0 0 0 3 0 0 0 0 0 0 0 1 0 0 0 0 5 3 0 5 0 0 1 3 0 3 5 0 0 0 0 0 0 1 3 0 3 0 0 
+mmihay3
+0 0 0 0 0 5 0 0 0 0 0 0 0 5 5 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 5 0 0 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 
+
+Welcome to the Recommendations App!
+Enter command or # to quit: 
+-----------------------------
+
+Success.
+Logged in as: Nik
+Enter command or # to quit: 
+-----------------------------
+
+Sunny is the most similar.
+Switching: Libba Bray,A Great and Terrible Beauty and Dan Brown,The Da Vinci Code
+Switching: Orson Scott Card,Ender's Game and Tom Clancy,The Hunt for Red October
+Switching: Robert Ludlum,The Bourne Series and Yann Martel,Life of Pi
+Switching: Robert Ludlum,The Bourne Series and Stephenie Meyer,Twilight Series
+Switching: Neil Shusterman,The Shadow Club and Jeff Smith,Bone Series
+Switching: Ann Brashares,The Sisterhood of the Travelling Pants and Dan Brown,The Da Vinci Code
+Switching: Meg Cabot,The Princess Diaries and Tom Clancy,The Hunt for Red October
+Switching: C S Lewis,The Lion the Witch and the Wardrobe and Yann Martel,Life of Pi
+Switching: C S Lewis,The Lion the Witch and the Wardrobe and Stephenie Meyer,Twilight Series
+Switching: Shueisha,Shonen Jump Series and Jeff Smith,Bone Series
+Switching: Isaac Asimov,Foundation Series and Dan Brown,The Da Vinci Code
+Switching: Libba Bray,A Great and Terrible Beauty and Tom Clancy,The Hunt for Red October
+Switching: Harper Lee,To Kill a Mockingbird and Yann Martel,Life of Pi
+Switching: Harper Lee,To Kill a Mockingbird and Stephenie Meyer,Twilight Series
+Switching: Louis Sachar,Holes and Jeff Smith,Bone Series
+Switching: Jay Asher,Thirteen Reasons Why and Dan Brown,The Da Vinci Code
+Switching: Ann Brashares,The Sisterhood of the Travelling Pants and Tom Clancy,The Hunt for Red October
+Switching: Elizabeth Laird,Kiss the Dust and Yann Martel,Life of Pi
+Switching: Elizabeth Laird,Kiss the Dust and Stephenie Meyer,Twilight Series
+Switching: Philip Pullman,The Golden Compass and Jeff Smith,Bone Series
+Switching: Maya Angelou,I Know Why the Caged Bird Sings and Dan Brown,The Da Vinci Code
+Switching: Isaac Asimov,Foundation Series and Tom Clancy,The Hunt for Red October
+Switching: Patrice Kindl,Owl in Love and Yann Martel,Life of Pi
+Switching: Patrice Kindl,Owl in Love and Stephenie Meyer,Twilight Series
+Switching: Jodi Picoult,My Sister's Keeper and Jeff Smith,Bone Series
+Switching: Laurie Halse Anderson,Speak and Dan Brown,The Da Vinci Code
+Switching: Jay Asher,Thirteen Reasons Why and Tom Clancy,The Hunt for Red October
+Switching: Daniel Keyes,Flowers For Algernon and Yann Martel,Life of Pi
+Switching: Daniel Keyes,Flowers For Algernon and Stephenie Meyer,Twilight Series
+Switching: Gary Paulsen,Hatchet and Jeff Smith,Bone Series
+Switching: Mitch Albom,The Five People You Meet in Heaven and Dan Brown,The Da Vinci Code
+Switching: Maya Angelou,I Know Why the Caged Bird Sings and Tom Clancy,The Hunt for Red October
+Switching: Guy Gavriel Kay,The Summer Tree and Yann Martel,Life of Pi
+Switching: Guy Gavriel Kay,The Summer Tree and Stephenie Meyer,Twilight Series
+Switching: Christopher Paolini,Eragon and Jeff Smith,Bone Series
+Switching: Richard Adams,Watership Down and Dan Brown,The Da Vinci Code
+Switching: Laurie Halse Anderson,Speak and Tom Clancy,The Hunt for Red October
+Switching: Aldous Huxley,Brave New World and Yann Martel,Life of Pi
+Switching: Aldous Huxley,Brave New World and Stephenie Meyer,Twilight Series
+Switching: George Orwell,Nineteen Eighty-Four (1984) and Jeff Smith,Bone Series
+Switching: Douglas Adams,The Hitchhiker's Guide To The Galaxy and Dan Brown,The Da Vinci Code
+Switching: Mitch Albom,The Five People You Meet in Heaven and Tom Clancy,The Hunt for Red October
+Switching: Alice Hoffman,Practical Magic and Yann Martel,Life of Pi
+Switching: Alice Hoffman,Practical Magic and Stephenie Meyer,Twilight Series
+Switching: Garth Nix,Sabriel and Jeff Smith,Bone Series
+Switching: Richard Adams,Watership Down and Tom Clancy,The Hunt for Red October
+Switching: Will Hobbs,Far North and Yann Martel,Life of Pi
+Switching: Will Hobbs,Far North and Stephenie Meyer,Twilight Series
+Switching: Robert Ludlum,The Bourne Series and Jeff Smith,Bone Series
+Switching: Douglas Adams,The Hitchhiker's Guide To The Galaxy and Tom Clancy,The Hunt for Red October
+Switching: James Gurney,Dinotopia: A Land Apart from Time and Yann Martel,Life of Pi
+Switching: James Gurney,Dinotopia: A Land Apart from Time and Stephenie Meyer,Twilight Series
+Switching: C S Lewis,The Lion the Witch and the Wardrobe and Jeff Smith,Bone Series
+Switching: William Goldman,The Princess Bride and Yann Martel,Life of Pi
+Switching: William Goldman,The Princess Bride and Stephenie Meyer,Twilight Series
+Switching: Harper Lee,To Kill a Mockingbird and Jeff Smith,Bone Series
+Switching: William Golding,Lord of the Flies and Yann Martel,Life of Pi
+Switching: William Golding,Lord of the Flies and Stephenie Meyer,Twilight Series
+Switching: Elizabeth Laird,Kiss the Dust and Jeff Smith,Bone Series
+Switching: William Gibson,Neuromancer and Yann Martel,Life of Pi
+Switching: William Gibson,Neuromancer and Stephenie Meyer,Twilight Series
+Switching: Patrice Kindl,Owl in Love and Jeff Smith,Bone Series
+Switching: Cornelia Funke,Inkheart and Yann Martel,Life of Pi
+Switching: Cornelia Funke,Inkheart and Stephenie Meyer,Twilight Series
+Switching: Daniel Keyes,Flowers For Algernon and Jeff Smith,Bone Series
+Switching: John Flanagan,Ranger's Apprentice Series and Yann Martel,Life of Pi
+Switching: John Flanagan,Ranger's Apprentice Series and Stephenie Meyer,Twilight Series
+Switching: Guy Gavriel Kay,The Summer Tree and Jeff Smith,Bone Series
+Switching: Orson Scott Card,Ender's Game and Yann Martel,Life of Pi
+Switching: Orson Scott Card,Ender's Game and Stephenie Meyer,Twilight Series
+Switching: Aldous Huxley,Brave New World and Jeff Smith,Bone Series
+Switching: Meg Cabot,The Princess Diaries and Yann Martel,Life of Pi
+Switching: Meg Cabot,The Princess Diaries and Stephenie Meyer,Twilight Series
+Switching: Alice Hoffman,Practical Magic and Jeff Smith,Bone Series
+Switching: Libba Bray,A Great and Terrible Beauty and Yann Martel,Life of Pi
+Switching: Libba Bray,A Great and Terrible Beauty and Stephenie Meyer,Twilight Series
+Switching: Will Hobbs,Far North and Jeff Smith,Bone Series
+Switching: Ann Brashares,The Sisterhood of the Travelling Pants and Yann Martel,Life of Pi
+Switching: Ann Brashares,The Sisterhood of the Travelling Pants and Stephenie Meyer,Twilight Series
+Switching: James Gurney,Dinotopia: A Land Apart from Time and Jeff Smith,Bone Series
+Switching: Isaac Asimov,Foundation Series and Yann Martel,Life of Pi
+Switching: Isaac Asimov,Foundation Series and Stephenie Meyer,Twilight Series
+Switching: William Goldman,The Princess Bride and Jeff Smith,Bone Series
+Switching: Jay Asher,Thirteen Reasons Why and Yann Martel,Life of Pi
+Switching: Jay Asher,Thirteen Reasons Why and Stephenie Meyer,Twilight Series
+Switching: William Golding,Lord of the Flies and Jeff Smith,Bone Series
+Switching: Maya Angelou,I Know Why the Caged Bird Sings and Yann Martel,Life of Pi
+Switching: Maya Angelou,I Know Why the Caged Bird Sings and Stephenie Meyer,Twilight Series
+Switching: William Gibson,Neuromancer and Jeff Smith,Bone Series
+Switching: Laurie Halse Anderson,Speak and Yann Martel,Life of Pi
+Switching: Laurie Halse Anderson,Speak and Stephenie Meyer,Twilight Series
+Switching: Cornelia Funke,Inkheart and Jeff Smith,Bone Series
+Switching: Mitch Albom,The Five People You Meet in Heaven and Yann Martel,Life of Pi
+Switching: Mitch Albom,The Five People You Meet in Heaven and Stephenie Meyer,Twilight Series
+Switching: John Flanagan,Ranger's Apprentice Series and Jeff Smith,Bone Series
+Switching: Richard Adams,Watership Down and Yann Martel,Life of Pi
+Switching: Richard Adams,Watership Down and Stephenie Meyer,Twilight Series
+Switching: Orson Scott Card,Ender's Game and Jeff Smith,Bone Series
+Switching: Douglas Adams,The Hitchhiker's Guide To The Galaxy and Yann Martel,Life of Pi
+Switching: Douglas Adams,The Hitchhiker's Guide To The Galaxy and Stephenie Meyer,Twilight Series
+Switching: Meg Cabot,The Princess Diaries and Jeff Smith,Bone Series
+Switching: Tom Clancy,The Hunt for Red October and Yann Martel,Life of Pi
+Switching: Libba Bray,A Great and Terrible Beauty and Jeff Smith,Bone Series
+Switching: Ann Brashares,The Sisterhood of the Travelling Pants and Jeff Smith,Bone Series
+Switching: Isaac Asimov,Foundation Series and Jeff Smith,Bone Series
+Switching: Jay Asher,Thirteen Reasons Why and Jeff Smith,Bone Series
+Switching: Maya Angelou,I Know Why the Caged Bird Sings and Jeff Smith,Bone Series
+Switching: Laurie Halse Anderson,Speak and Jeff Smith,Bone Series
+Switching: Mitch Albom,The Five People You Meet in Heaven and Jeff Smith,Bone Series
+Switching: Richard Adams,Watership Down and Jeff Smith,Bone Series
+Switching: Douglas Adams,The Hitchhiker's Guide To The Galaxy and Jeff Smith,Bone Series
+Switching: Stephenie Meyer,Twilight Series and Jeff Smith,Bone Series
+Sunny's Ratings:
+Dan Brown,The Da Vinci Code, 0/5
+Yann Martel,Life of Pi, 0/5
+Tom Clancy,The Hunt for Red October, 0/5
+Jeff Smith,Bone Series, 0/5
+Stephenie Meyer,Twilight Series, 0/5
+Douglas Adams,The Hitchhiker's Guide To The Galaxy, 0/5
+Richard Adams,Watership Down, 0/5
+Mitch Albom,The Five People You Meet in Heaven, 0/5
+Laurie Halse Anderson,Speak, 0/5
+Maya Angelou,I Know Why the Caged Bird Sings, 5/5
+Jay Asher,Thirteen Reasons Why, 0/5
+Isaac Asimov,Foundation Series, 0/5
+Ann Brashares,The Sisterhood of the Travelling Pants, 3/5
+Suzanne Collins,The Hunger Games, 5/5
+F. Scott Fitzgerald,The Great Gatsby, 5/5
+Libba Bray,A Great and Terrible Beauty, 0/5
+Meg Cabot,The Princess Diaries, 0/5
+Orson Scott Card,Ender's Game, 0/5
+John Flanagan,Ranger's Apprentice Series, 0/5
+Cornelia Funke,Inkheart, 0/5
+William Gibson,Neuromancer, 0/5
+William Golding,Lord of the Flies, 0/5
+William Goldman,The Princess Bride, 0/5
+James Gurney,Dinotopia: A Land Apart from Time, 0/5
+Will Hobbs,Far North, 0/5
+Alice Hoffman,Practical Magic, 0/5
+Aldous Huxley,Brave New World, 0/5
+Masashi Kishimoto,Naruto, 5/5
+Tite Kubo,Bleach (graphic novel), 5/5
+Guy Gavriel Kay,The Summer Tree, 0/5
+Daniel Keyes,Flowers For Algernon, 0/5
+Patrice Kindl,Owl in Love, 0/5
+Elizabeth Laird,Kiss the Dust, 0/5
+Harper Lee,To Kill a Mockingbird, 5/5
+Lurlene McDaniel,Breathless, 0/5
+C S Lewis,The Lion the Witch and the Wardrobe, 1/5
+Robert Ludlum,The Bourne Series, 0/5
+Garth Nix,Sabriel, 0/5
+George Orwell,Nineteen Eighty-Four (1984), 0/5
+Christopher Paolini,Eragon, 0/5
+Gary Paulsen,Hatchet, 0/5
+Jodi Picoult,My Sister's Keeper, 0/5
+J.K. Rowling,Harry Potter Series, 5/5
+Philip Pullman,The Golden Compass, 0/5
+Louis Sachar,Holes, 0/5
+Shueisha,Shonen Jump Series, 0/5
+Neil Shusterman,The Shadow Club, 3/5
+Art Spiegelman,Maus: A Survivor's Tale, 0/5
+Amy Tan,The Joy Luck Club, 0/5
+J R R Tolkien,The Lord of the Rings, 5/5
+J R R Tolkien,The Hobbit, 5/5
+Eric Walters,Shattered, 0/5
+H G Wells,The War Of The Worlds, 0/5
+Patricia C. Wrede,Dealing with Dragons, 0/5
+John Wyndham,The Chrysalids, 0/5
+
+Advanced recommendations:
+Dan Brown,The Da Vinci Code
+Yann Martel,Life of Pi
+Tom Clancy,The Hunt for Red October
+Jeff Smith,Bone Series
+Stephenie Meyer,Twilight Series
+
+Logged in as: Nik
+Enter command or # to quit: 
+-----------------------------
+
+
+
+Thank you for using the Recommendations app!

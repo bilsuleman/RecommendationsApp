@@ -1,0 +1,182 @@
+To start the app, load the data.
+Type "load itemsFile ratingsFile" and press enter.
+
+Enter command or # to quit: load podcastsTiny.txt ratingsTiny.txt
+
+Reading items file...
+S-Town
+Radiolab
+Serial
+Reply All
+This American Life
+The Daily
+Stuff You Should Know
+Armchair Expert
+Planet Money
+
+Reading ratings file...
+Jesse
+-3 5 -3 0 -1 -1 0 0 5 
+Shakea
+5 0 5 0 5 0 0 0 1 
+Batool
+5 -5 0 0 0 0 0 -3 -5 
+Muhammad
+0 0 0 -5 0 -3 0 0 0 
+Maria
+5 0 5 0 0 0 0 1 0 
+Alex
+5 0 0 5 0 5 5 1 0 
+Riley
+-5 3 -5 0 -1 0 0 0 3 
+
+Welcome to the Recommendations App!
+Enter command or # to quit: login Jesse
+
+-----------------------------
+
+Success.
+Logged in as: Jesse
+Enter command or # to quit: show
+
+-----------------------------
+
+Jesse's Ratings:
+S-Town, -3/5
+Radiolab, 5/5
+Serial, -3/5
+This American Life, -1/5
+The Daily, -1/5
+Planet Money, 5/5
+
+Logged in as: Jesse
+Enter command or # to quit: basic
+
+-----------------------------
+
+Basic recommendations:
+Stuff You Should Know
+Reply All
+Armchair Expert
+
+*********************************************************
+ourvector<d> stats:
+ # of vectors created:   1
+ # of elements inserted: 9
+ # of elements accessed: 10
+*********************************************************
+Logged in as: Jesse
+Enter command or # to quit: advanced
+
+-----------------------------
+
+Advanced recommendations:
+Reply All
+Stuff You Should Know
+Armchair Expert
+
+Logged in as: Jesse
+Enter command or # to quit: print users
+
+-----------------------------
+
+
+Jesse
+Shakea
+Batool
+Muhammad
+Maria
+Alex
+Riley
+
+Logged in as: Jesse
+Enter command or # to quit: print items
+
+-----------------------------
+
+
+0. S-Town
+1. Radiolab
+2. Serial
+3. Reply All
+4. This American Life
+5. The Daily
+6. Stuff You Should Know
+7. Armchair Expert
+8. Planet Money
+
+Logged in as: Jesse
+Enter command or # to quit: add user
+
+-----------------------------
+
+Please enter the username: dude
+Logged in as: dude
+Enter command or # to quit: add rating
+
+-----------------------------
+
+Item number to add/change rating: 0
+Add the rating for S-Town: 3
+
+Logged in as: dude
+Enter command or # to quit: add item
+
+-----------------------------
+
+Logged in as: dude
+Enter command or # to quit: add admin
+
+-----------------------------
+
+Please enter the Admin username: Bilal
+Please enter a password for the Admin, uppercase letters only: TEST
+Logged in as: Bilal
+Enter command or # to quit: login dude
+
+-----------------------------
+
+Success.
+Logged in as: dude
+Enter command or # to quit: loginAd
+
+-----------------------------
+
+Bilal
+Please enter password for admin: wrong
+Incorrect password.
+Logged in as: dude
+Enter command or # to quit: loginAd Bilal
+
+-----------------------------
+
+Please enter password for admin: TEST
+Success.
+Logged in as: Bilal
+Enter command or # to quit: #
+
+-----------------------------
+
+*********************************************************
+ourvector<i> stats:
+ # of vectors created:   91
+ # of elements inserted: 708
+ # of elements accessed: 876
+*********************************************************
+*********************************************************
+ourvector<6Person> stats:
+ # of vectors created:   5
+ # of elements inserted: 37
+ # of elements accessed: 317
+*********************************************************
+*********************************************************
+ourvector<NSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE> stats:
+ # of vectors created:   3
+ # of elements inserted: 27
+ # of elements accessed: 44
+*********************************************************
+
+
+Thank you for using the Recommendations app!
+
+At first glance it looks like I created way too many vectors but on further analysis on were exactly they have been created I can clearly see that they were in fact neccesary. When I first start the program 1 person vector is created 4 integer vectors because there are four people in the person vector list and 1 string vector for the items. I go on to create 4 additional person vectors in the advanced and basic functions as well as 2 more item vectors for both those functions. This is neccessary as I do certain swapping to find the top 5 recommendations for a user and I do not want those swaps to affect the items list at the top scope of the program. The integer vectors are created when the program starts, when users are added, and when I run my recommendations algorithms because those algorithms create an additional integer vector to store indicies. I believe my program is somewhat efficient and that the reccomendations operations are just taxing operations.

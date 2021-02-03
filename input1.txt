@@ -1,0 +1,36 @@
+load booksStudents.txt ratingsBooksStudents.txt
+print items
+add rating
+login Kozmo
+show
+basic
+advanced
+add rating
+4
+5
+show
+basic
+advanced
+add rating
+39
+5
+show
+basic
+advanced
+login bananaBreadPudding57
+show
+basic
+advanced
+add rating
+4
+-3
+add rating
+5
+-1
+add rating
+6
+5
+show
+basic
+advanced
+#
